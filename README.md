@@ -13,7 +13,8 @@ Input sentences need to be encoded and padded for model processing.
 A BiLSTM neural network will be used to learn sequential patterns in the text.
 The system should predict entity labels for unseen sentences and evaluate its accuracy.
 
-![alt text](image-3.png)
+
+<img width="410" height="491" alt="image-3" src="https://github.com/user-attachments/assets/5a14de82-ce0a-4d03-9c0f-ae948afe721d" />
 
 ## DESIGN STEPS
 
@@ -101,14 +102,16 @@ def train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=3):
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![alt text](image-2.png)
+<img width="578" height="71" alt="image-2" src="https://github.com/user-attachments/assets/f967fae2-d484-48c5-8e02-1eb6c7eb3830" />
 
-![alt text](image.png)
+<img width="847" height="672" alt="image" src="https://github.com/user-attachments/assets/43fe084e-6639-40c6-bab5-e2120e6e651b" />
 
 ### Sample Text Prediction
 
-![alt text](image-1.png)
+<img width="561" height="492" alt="image-1" src="https://github.com/user-attachments/assets/75dde5ed-c3b1-49a9-b34e-88c74f315b7f" />
+
 
 ## RESULT
+
 
 Thus the program to develop an LSTM-based model for recognizing the named entities in the text is developed successfully.
